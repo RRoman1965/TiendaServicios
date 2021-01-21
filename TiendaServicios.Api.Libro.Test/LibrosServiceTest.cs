@@ -38,6 +38,7 @@ namespace TiendaServicios.Api.Libro.Test
         [Fact]
         public async void GetLibroPorId()
         {
+            //Prueba metodo para ller un libro
             var mockContexto = CrearContexto();
             var mapConfig = new MapperConfiguration(cfg =>
             {
