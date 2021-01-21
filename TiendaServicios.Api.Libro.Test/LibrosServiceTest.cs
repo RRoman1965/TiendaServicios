@@ -82,7 +82,7 @@ namespace TiendaServicios.Api.Libro.Test
 
         private IEnumerable<LibreriaMaterial> ObtenerDataPrueba()
         {
-            //Quitar prueba de cambio
+            //Espero que funcione
             A.Configure<LibreriaMaterial>()
                 .Fill(x => x.Titulo).AsArticleTitle()
                 .Fill(x => x.LibreriaMaterialId, () => { return Guid.NewGuid(); });
