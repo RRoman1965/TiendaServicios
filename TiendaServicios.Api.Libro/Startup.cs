@@ -15,8 +15,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using TiendaServicios.Api.Libro.Aplicacion;
 using TiendaServicios.Api.Libro.Persistencia;
-using TiendaServiciosRabbitMQ_Bus.BusRabbit;
-using TiendaServiciosRabbitMQ_Bus.Implement;
+using TiendaServiciosRabbitMQ.Bus.BusRabbit;
+using TiendaServiciosRabbitMQ.Bus.Implement;
 
 namespace TiendaServicios.Api.Libro
 {

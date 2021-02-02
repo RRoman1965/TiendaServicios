@@ -6,8 +6,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using TiendaServicios.Mensajeria.Email.SendGridLibreria.Interface;
 using TiendaServicios.Mensajeria.Email.SendGridLibreria.Modelo;
-using TiendaServiciosRabbitMQ_Bus.BusRabbit;
-using TiendaServiciosRabbitMQ_Bus.EventoQueue;
+using TiendaServiciosRabbitMQ.Bus.BusRabbit;
+using TiendaServiciosRabbitMQ.Bus.EventoQueue;
 
 namespace TiendaServicios.api.Autor.ManejadorRabbit
 {

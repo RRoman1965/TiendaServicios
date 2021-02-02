@@ -12,9 +12,9 @@ using TiendaServicios.api.Autor.ManejadorRabbit;
 using TiendaServicios.api.Autor.Persistencia;
 using TiendaServicios.Mensajeria.Email.SendGridLibreria.Implement;
 using TiendaServicios.Mensajeria.Email.SendGridLibreria.Interface;
-using TiendaServiciosRabbitMQ_Bus.BusRabbit;
-using TiendaServiciosRabbitMQ_Bus.EventoQueue;
-using TiendaServiciosRabbitMQ_Bus.Implement;
+using TiendaServiciosRabbitMQ.Bus.BusRabbit;
+using TiendaServiciosRabbitMQ.Bus.EventoQueue;
+using TiendaServiciosRabbitMQ.Bus.Implement;
 
 namespace TiendaServicios.api.Autor
 {
