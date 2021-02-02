@@ -15,7 +15,7 @@ Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiendaServicios.Api.Gateway", "TiendaServicios.Api.Gateway\TiendaServicios.Api.Gateway.csproj", "{CA878DCA-44AE-4E09-BFD8-A8A1927B27B1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiendaServiciosRabbitMQ.Bus", "TiendaServiciosRabbitMQ,Bus\TiendaServiciosRabbitMQ.Bus.csproj", "{3937E455-2A3E-45A0-87E7-A779A0BFEF69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiendaServiciosRabbitMQ.Bus", "TiendaServiciosRabbitMQ.Bus\TiendaServiciosRabbitMQ.Bus.csproj", "{3937E455-2A3E-45A0-87E7-A779A0BFEF69}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiendaServicios.Mensajeria.Email", "TiendaServicios.Mensajeria.Email\TiendaServicios.Mensajeria.Email.csproj", "{E186ECBF-0028-4DC3-9916-F11861BD9357}"
 EndProject

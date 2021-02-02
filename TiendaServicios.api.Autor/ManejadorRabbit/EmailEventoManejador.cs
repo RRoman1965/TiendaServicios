@@ -1,8 +1,4 @@
-﻿using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using Microsoft.Extensions.Logging;
 using System.Threading.Tasks;
 using TiendaServicios.Mensajeria.Email.SendGridLibreria.Interface;
 using TiendaServicios.Mensajeria.Email.SendGridLibreria.Modelo;
