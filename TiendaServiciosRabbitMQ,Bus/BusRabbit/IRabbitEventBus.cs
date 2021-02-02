@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
-using TiendaServiciosRabbitMQ_Bus.Comandos;
-using TiendaServiciosRabbitMQ_Bus.Eventos;
+using TiendaServiciosRabbitMQ.Bus.Comandos;
+using TiendaServiciosRabbitMQ.Bus.Eventos;
 
-namespace TiendaServiciosRabbitMQ_Bus.BusRabbit
+namespace TiendaServiciosRabbitMQ.Bus.BusRabbit
 {
     public interface IRabbitEventBus
     {

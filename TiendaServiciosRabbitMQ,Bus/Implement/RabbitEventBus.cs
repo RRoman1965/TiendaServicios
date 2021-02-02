@@ -8,11 +8,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TiendaServiciosRabbitMQ_Bus.BusRabbit;
-using TiendaServiciosRabbitMQ_Bus.Comandos;
-using TiendaServiciosRabbitMQ_Bus.Eventos;
+using TiendaServiciosRabbitMQ.Bus.BusRabbit;
+using TiendaServiciosRabbitMQ.Bus.Comandos;
+using TiendaServiciosRabbitMQ.Bus.Eventos;
 
-namespace TiendaServiciosRabbitMQ_Bus.Implement
+namespace TiendaServiciosRabbitMQ.Bus.Implement
 {
     public class RabbitEventBus : IRabbitEventBus
     {

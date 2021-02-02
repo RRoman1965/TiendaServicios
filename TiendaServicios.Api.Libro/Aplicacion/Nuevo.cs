@@ -7,8 +7,8 @@ using System.Threading;
 using System.Threading.Tasks;
 using TiendaServicios.Api.Libro.Modelo;
 using TiendaServicios.Api.Libro.Persistencia;
-using TiendaServiciosRabbitMQ_Bus.BusRabbit;
-using TiendaServiciosRabbitMQ_Bus.EventoQueue;
+using TiendaServiciosRabbitMQ.Bus.BusRabbit;
+using TiendaServiciosRabbitMQ.Bus.EventoQueue;
 
 namespace TiendaServicios.Api.Libro.Aplicacion
 {

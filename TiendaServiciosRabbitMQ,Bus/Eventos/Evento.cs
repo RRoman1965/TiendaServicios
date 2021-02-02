@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TiendaServiciosRabbitMQ_Bus.Eventos
+namespace TiendaServiciosRabbitMQ.Bus.Eventos
 {
     public abstract class Evento
     {

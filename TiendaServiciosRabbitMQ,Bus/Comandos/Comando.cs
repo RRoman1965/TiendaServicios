@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using TiendaServiciosRabbitMQ_Bus.Eventos;
+using TiendaServiciosRabbitMQ.Bus.Eventos;
 
-namespace TiendaServiciosRabbitMQ_Bus.Comandos
+namespace TiendaServiciosRabbitMQ.Bus.Comandos
 {
     public abstract class Comando : Message
     {

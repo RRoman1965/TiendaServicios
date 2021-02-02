@@ -1,4 +1,4 @@
-﻿namespace TiendaServiciosRabbitMQ_Bus.Implement
+﻿namespace TiendaServiciosRabbitMQ.Bus.Implement
 {
     internal interface IServicesScopeFactory
     {
