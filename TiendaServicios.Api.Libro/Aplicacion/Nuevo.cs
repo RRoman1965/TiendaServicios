@@ -7,6 +7,8 @@ using System.Threading;
 using System.Threading.Tasks;
 using TiendaServicios.Api.Libro.Modelo;
 using TiendaServicios.Api.Libro.Persistencia;
+using TiendaServiciosRabbitMQ_Bus.BusRabbit;
+using TiendaServiciosRabbitMQ_Bus.EventoQueue;
 
 namespace TiendaServicios.Api.Libro.Aplicacion
 {
@@ -30,9 +32,12 @@ namespace TiendaServicios.Api.Libro.Aplicacion
         public class Manejador : IRequestHandler<Ejecuta>
         {
             private readonly ContextoLibreria _contexto;
-            public Manejador(ContextoLibreria contexto)
+            private readonly IRabbitEventBus _eventBus;
+
+            public Manejador(ContextoLibreria contexto, IRabbitEventBus eventBus)
             {
                 _contexto = contexto;
+                _eventBus = eventBus;
             }
             public async Task<Unit> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
@@ -46,11 +51,13 @@ namespace TiendaServicios.Api.Libro.Aplicacion
                 _contexto.LibreriaMaterial.Add(libro);
                 var value = await _contexto.SaveChangesAsync();
 
+                _eventBus.Publish(new EmailEventoQueue("roman_roberto@hotmail.com", request.Titulo, "Este contenido es un ejemplo"));
+
                 if (value > 0)
                 {
                     return Unit.Value;
                 }
-
+                
                 throw new Exception("No se puedo guardar el libro");
             }
         }
